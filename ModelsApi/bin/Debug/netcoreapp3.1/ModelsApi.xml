@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ModelsApi</name>
+    </assembly>
+    <members>
+        <member name="T:ModelsApi.Controllers.AccountController">
+            <summary>
+            Use this API to login and change password.
+            </summary>
+        </member>
+        <member name="M:ModelsApi.Controllers.AccountController.Login(ModelsApi.Models.DTOs.Login)">
+            <summary>
+            You must login before you can use any other api call.
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ModelsApi.Controllers.AccountController.ChangePassword(ModelsApi.Models.DTOs.Login)">
+            <summary>
+            Use to change the password.
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ModelsApi.Controllers.ExpensesController.PostExpense(ModelsApi.Models.DTOs.NewExpense)">
+            <summary>
+            Create a new expense for a model.
+            </summary>
+            <param name="newExpense"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ModelsApi.Controllers.JobsController.PostJob(ModelsApi.Models.DTOs.NewJob)">
+            <summary>
+            Create a new job
+            </summary>
+            <param name="newJob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ModelsApi.Controllers.JobsController.AddModelToJob(System.Int64,System.Int64)">
+            <summary>
+            Add model to job.
+            </summary>
+            <param name="jobId">jobId</param>
+            <param name="modelId">modelId</param>
+            <returns></returns>
+        </member>
+        <member name="M:ModelsApi.Controllers.JobsController.RemoveModelFromJob(System.Int64,System.Int64)">
+            <summary>
+            Removes the model from the job.
+            </summary>
+            <param name="jobId">jobId</param>
+            <param name="modelId">ModelId</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
