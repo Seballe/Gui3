@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\vuevue.csproj": {}
+    "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\vuevue.csproj": {
+    "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\vuevue.csproj",
+        "projectUniqueName": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj",
         "projectName": "vuevue",
-        "projectPath": "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\vuevue.csproj",
+        "projectPath": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj",
         "packagesPath": "C:\\Users\\ermin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\obj\\",
+        "outputPath": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

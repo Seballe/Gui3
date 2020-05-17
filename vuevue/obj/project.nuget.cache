@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hBK1lbUEuldMbFCwnQHp5wVlBHQwf2o5Jl3ehkNF4lQhwFCGE/OunOzCCPU87FoIia+6dx+1J3CZSVgDroI1WQ==",
+  "dgSpecHash": "rdXfHNEeO/6Zo/kj4zxD2jDo0ewk/LzaZOC9wiIIU+UkRM6bnPvCbrqiRe7YgifkVEAtSzZWcCWQYQcIGRr0yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ermin\\source\\repos\\vuevue\\vuevue\\vuevue.csproj",
+  "projectFilePath": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ermin\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\ermin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
