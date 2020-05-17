@@ -3,28 +3,29 @@
         <h1>Add a new Manager</h1>
         <form v-if="!submitted">
             <label>First Name</label>
-            <input type="text" v-model.lazy="manager.firstName" required />
+            <input type="text" v-model.lazy="model.firstName" required />
             <label>Last Name</label>
-            <input type="text" v-model.lazy="manager.lastName" required />
+            <input type="text" v-model.lazy="model.lastName" required />
             <label>Email</label>
-            <input type="text" v-model.lazy="manager.email" required />
-            <label>Password</label>
-            <input type="password" v-model.lazy="manager.password" placeholder="Password" required />
+            <input type="text" v-model.lazy="model.email" required />
+            <label>Phone Number</label>
+            <input type="text" v-model.lazy="model.phoneNumber" required />
 
 
             <button class="btn btn-secondary" @click.prevent="PostManager">Add Manager</button>
         </form>
 
-            <div v-show="submitted">
-                <h3>You have added a new manager</h3>
-            </div>
-            <div id="preview">
-                <h3>Preview Manager</h3>
-                <p>First name {{ manager.firstName }}</p>
-                <p>Last name {{ manager.lastName }}</p>
-                <p>Email {{ manager.email }}</p>
-            </div>
-</div>
+        <div v-show="submitted">
+            <h3>You have added a new model</h3>
+        </div>
+        <div id="preview">
+            <h3>Preview model</h3>
+            <p>First name {{ model.firstName }}</p>
+            <p>Last name {{ model.lastName }}</p>
+            <p>Email {{ model.email }}</p>
+            <p>Phone number {{ model.phoneNumber }}</p>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -40,7 +41,7 @@ export default {
             firstName:"",
             lastName: "",
             email:"",
-            password:""
+            phoneNumber:""
         },
         submitted: false,
 
@@ -52,12 +53,12 @@ export default {
             this.calcEndDate();
 
 
-            axios.post('http://localhost:5000/api/Managers/PostManager',
+            axios.post('http://localhost:5000/api/Models/PostModel',
                 {
                     FirstName: this.firstName,
                     LastName: this.lastName,
                     Email: this.email,
-                    password: this.password
+                    PhoneNo: this.phoneNumber
                 })
             this.submitted = true;
         }
