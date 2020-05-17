@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastian\\source\\repos\\Gui3\\vuevue\\vuevue.csproj": {}
+    "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian\\source\\repos\\Gui3\\vuevue\\vuevue.csproj": {
+    "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\source\\repos\\Gui3\\vuevue\\vuevue.csproj",
+        "projectUniqueName": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj",
         "projectName": "vuevue",
-        "projectPath": "C:\\Users\\Sebastian\\source\\repos\\Gui3\\vuevue\\vuevue.csproj",
-        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\source\\repos\\Gui3\\vuevue\\obj\\",
+        "projectPath": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\vuevue.csproj",
+        "packagesPath": "C:\\Users\\ermin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ermin\\source\\repos\\GUI3\\vuevue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ermin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
