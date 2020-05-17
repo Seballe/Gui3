@@ -10,10 +10,7 @@
 </template>
 
 <script>
-    import axios from 'axios';
-
-    export default
-        {
+    export default{
             data() {
                 return {
                     login: {
@@ -21,22 +18,36 @@
                         password:""
                     }
                 }
-            }
-            methods: {
-                loggingIn: function () {
-                    var ref = this;
+        },
 
-                    axios.post('http://localhost:5000/api/AccountController/login',
-                        {
-                            Email: ref.login.email,
-                            Password: ref.login.password
+         methods:{
+                login() {
+                        fetch('https://localhost:44368/api/Account/login', {
+                            method: 'POST',
+                            body: JSON.stringify({
+                                email: this.login.email,
+                                password: this.login.password
+                            }),
+                            headers: new Headers({
+                                'Content-Type': 'application/json'
+                            })
+                        }).then(res => {
+                             
+                            if (!res.ok) {
+                                throw new Error('Error Occured');
+                            }
+
+                            res.json().then((token) => {
+
+                                if (res.status)
+                                    localStorage.setItem("token", token.jwt);
+                            })
+
+                        
                         })
-                    this.submitted = true;
+                    }
                 }
-            },
-
-
-        }
+            }
 </script>
 
 <style>
